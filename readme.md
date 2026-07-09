@@ -1,20 +1,19 @@
-````md
 # Node.js Projects
 
-A collection of Node.js projects built while learning backend development and core Node.js concepts. This repository is continuously updated with practical projects covering Node.js fundamentals, CLI applications, REST APIs, backend development, and real-world problem-solving.
+A collection of Node.js projects built while learning backend development and core Node.js concepts. This repository is continuously updated with practical projects covering Node.js fundamentals, CLI applications, REST APIs, file handling, event-driven programming, and real-world applications.
 
 ## Projects
 
 | Project | Description |
 |---------|-------------|
-| CLI TODO | A command-line Todo application built using the `readline` module. |
-| CLI File Creator | A CLI utility that creates text files with user-provided content using `fs` and `readline`. |
-| Event Tracker | An event-driven application using `EventEmitter` and `fs` to track user activities and persist event summaries. |
-| Currency Converter | Converts USD into multiple currencies using a public exchange rate API. |
-| Random Joke Generator | Fetches and displays random programming jokes using a public REST API. |
-| CLI Weather App | Fetches real-time weather information for any city using the OpenWeather API. |
+| **CLI TODO** | A command-line Todo application built using the `readline` module. |
+| **CLI File Creator** | A CLI utility that creates text files with user-provided content using `fs` and `readline`. |
+| **Event Tracker** | An event-driven application using `EventEmitter` and `fs` to track user activities and persist event summaries. |
+| **Currency Converter** | Converts USD into multiple currencies using a public exchange rate API. |
+| **Random Joke Generator** | Fetches and displays random programming jokes using a public REST API. |
+| **CLI Weather App** | Fetches and displays real-time weather information for any city using the OpenWeather API. |
 
-## Technologies Used
+## Tech Stack
 
 - Node.js
 - JavaScript (ES6+)
@@ -59,7 +58,7 @@ node <filename>.js
 
 ## Repository Goals
 
-This repository documents my journey of learning Node.js by building practical projects. Each project focuses on a different concept while following clean coding practices and real-world development practices.
+This repository documents my journey of learning Node.js by building practical projects. Each project focuses on a different Node.js concept while following clean coding practices and solving real-world problems. New projects will continue to be added as I explore backend development.
 
 ## Upcoming Projects
 
@@ -74,6 +73,8 @@ This repository documents my journey of learning Node.js by building practical p
 - Blog API
 - Notes API
 
+---
+
 ## Author
 
 **Tanishq**
@@ -81,4 +82,3 @@ This repository documents my journey of learning Node.js by building practical p
 GitHub: https://github.com/Legal-Thief
 
 If you find these projects useful or helpful, consider starring the repository.
-````
