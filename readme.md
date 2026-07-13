@@ -4,53 +4,58 @@ A collection of Node.js projects built while learning backend development and co
 
 ## Projects
 
-| Project | Description |
-|---------|-------------|
-| **CLI TODO** | A command-line Todo application built using the `readline` module. |
-| **CLI File Creator** | A CLI utility that creates text files with user-provided content using `fs` and `readline`. |
-| **Event Tracker** | An event-driven application using `EventEmitter` and `fs` to track user activities and persist event summaries. |
-| **Currency Converter** | Converts USD into multiple currencies using a public exchange rate API. |
-| **Random Joke Generator** | Fetches and displays random programming jokes using a public REST API. |
-| **CLI Weather App** | Fetches and displays real-time weather information for any city using the OpenWeather API. |
+| Project                   | Description                                                                                                                                                                            |
+| ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **CLI TODO**              | A command-line Todo application built using the `readline` module.                                                                                                                     |
+| **CLI File Creator**      | A CLI utility that creates text files with user-provided content using `fs` and `readline`.                                                                                            |
+| **Event Tracker**         | An event-driven application using `EventEmitter` and `fs` to track user activities and persist event summaries.                                                                        |
+| **Currency Converter**    | Converts USD into multiple currencies using a public exchange rate API.                                                                                                                |
+| **Random Joke Generator** | Fetches and displays random programming jokes using a public REST API.                                                                                                                 |
+| **CLI Weather App**       | Fetches and displays real-time weather information for any city using the OpenWeather API.                                                                                             |
+| **URL Shortener**         | A URL shortening application built with Node.js core modules. Supports creating custom or random short codes, storing links in a JSON file, and redirecting users to the original URL. |
 
 ## Tech Stack
 
-- Node.js
-- JavaScript (ES6+)
-- File System (`fs`)
-- Readline
-- EventEmitter
-- Fetch API
-- REST APIs
-- JSON
+* Node.js
+* JavaScript (ES6+)
+* HTTP Module
+* File System (`fs`)
+* File System Promises (`fs/promises`)
+* Path Module
+* Crypto Module
+* Readline
+* EventEmitter
+* Fetch API
+* REST APIs
+* JSON
 
 ## Getting Started
 
-Clone the repository:
+### Clone the repository
 
 ```bash
 git clone https://github.com/Legal-Thief/NODE_JS_STUFF.git
 ```
 
-Navigate to the repository:
+### Navigate to the repository
 
 ```bash
 cd NODE_JS_STUFF
 ```
 
-Navigate to any project:
+### Navigate to a project
 
 ```bash
 cd <project-folder>
 ```
 
-Install dependencies (if required):
+### Install dependencies (if required)
 
 ```bash
 npm install
 ```
 
-Run the project:
+### Run the project
 
 ```bash
 node <filename>.js
@@ -60,20 +65,31 @@ node <filename>.js
 
 This repository documents my journey of learning Node.js by building practical projects. Each project focuses on a different Node.js concept while following clean coding practices and solving real-world problems. New projects will continue to be added as I explore backend development.
 
+## Learning Topics Covered
+
+* Node.js Fundamentals
+* Modules (CommonJS & ES Modules)
+* HTTP Server
+* File Handling
+* Asynchronous Programming
+* Event-Driven Programming
+* Command-Line Applications
+* JSON Data Storage
+* REST API Integration
+* URL Routing
+* Error Handling
+
 ## Upcoming Projects
 
-- Express.js Fundamentals
-- REST API Development
-- MongoDB & Mongoose
-- Authentication (JWT)
-- File Uploads (Multer)
-- URL Shortener
-- Authentication System
-- Real-time Applications (Socket.io)
-- Blog API
-- Notes API
-
----
+* Express.js Fundamentals
+* REST API Development
+* MongoDB & Mongoose
+* Authentication (JWT)
+* File Uploads (Multer)
+* Authentication System
+* Real-time Applications (Socket.io)
+* Blog API
+* Notes API
 
 ## Author
 
